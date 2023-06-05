@@ -1,0 +1,16 @@
+Algoritmo:
+Declaração; PC:Inteiro;
+PP:Inteiro;
+NÚMEROS[10]: Inteiro;
+
+INÍCIO
+Para i=0 dê até 9 passo 1
+Número[i]<-1;
+Se i=PC E I+2=PP
+então i<-PP E I+2<-PC
+Se i=PP I+2=PC E I+3=PP
+ENTÃO I=PP I+2=PP E I+3=PC
+FIM-SE
+FIM-SE
+FIM-PARA
+FIM
